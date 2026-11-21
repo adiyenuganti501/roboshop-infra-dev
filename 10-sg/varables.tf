@@ -1,9 +1,9 @@
 variable "project" {
-  
+  default = "roboshop"
 }
 
 variable "environment" {
-  
+  default = "dev"
 }
 
 variable "mongo_db_sg_name" {
