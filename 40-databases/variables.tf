@@ -1,6 +1,6 @@
 variable "project" {
   default = "roboshop"
 }
-variable "environment" {
+variable "environmenet" {
   default = "dev"
 }
