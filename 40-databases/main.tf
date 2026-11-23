@@ -1,5 +1,6 @@
 resource "aws_instance" "mongodb" {
-  ami = ""
-  instance_type = ""
-  
+  ami = local.ami_id
+  instance_type = "t3.micro"
+  subnet_id = local.mongodb_sg_id
+
 }
